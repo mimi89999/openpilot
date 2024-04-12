@@ -1,0 +1,8 @@
+Output WL-1 mode 964x604
+
+# Logo key. Use Mod1 for Alt.
+set $mod Mod4
+bindsym $mod+f fullscreen
+
+exec_always 'wayvnc -u /tmp/wayvnc.sock'
+exec_always 'steam steam://rungameid/227300 && swaymsg exit'
